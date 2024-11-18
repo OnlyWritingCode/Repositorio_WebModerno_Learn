@@ -1,0 +1,55 @@
+a{
+    font-size: 24px;
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+a:active{
+    color: black;
+    text-decoration: dotted;
+}
+
+
+.caja1{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+}
+.caja1:hover{
+    background-color: brown;
+}
+
+li:nth-child(odd){
+    background-color: red;
+}
+
+li:nth-child(even){
+    background-color: violet;
+}
+
+/* Pseudo elem before y after */
+
+/* p:before{
+    content: "*-*";
+}
+p:after{
+    content: "*-*";
+} */
+
+/* firstline y first letter */
+
+p::first-letter{
+    font-size: 32px;
+}
+
+/* selector por atributo */
+
+input[type="text"]{
+    border: 3px solid blue;
+}

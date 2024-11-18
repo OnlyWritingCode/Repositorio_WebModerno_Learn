@@ -1,3 +1,14 @@
+/* selector universal */
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-color: aqua;
+}
+
 /* selector por elementos */
 h1{
     font-size: 48px;
@@ -11,6 +22,40 @@ h2{
 }
 
 /* selector por id se usa "#" */
-h2#color-verde{
-    color: green;
+h2#subtitulo-encabezado{
+    color: yellowgreen;
+}
+
+/* selector de clase se usa . */
+.subtitulo-encabezado{
+    color: yellowgreen;
+}
+
+.borde-gris{
+    border: 2px solid grey;
+}
+
+/* selector multiple */
+
+h1, p{
+    background-color: blueviolet;
+    color: yellowgreen;
+}
+
+/* selector de descendencia */
+
+ul li{
+    list-style: square;
+    padding: 10px;
+    font-size: 24px;
+}
+
+/* selector de descendencia directa */
+
+ul > li, ol > li{
+    list-style: square;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 900;
+    border: 1px solid red;
 }
