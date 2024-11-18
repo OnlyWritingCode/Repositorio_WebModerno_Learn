@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica emmet</title>
+</head>
+<body>
+    <div class="caja">
+        <h3 class="titulo"></h3>
+    </div> 
+    <!-- Operadores anidados nesting -->
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- Operadores hermanos siblings -->
+     <div></div>
+     <p></p>
+     <blockquote></blockquote>
+
+     <!-- combinar la estructura -->
+      <div></div>
+      <div>
+        <p><span></span><em></em></p>
+      </div>
+
+      <!-- Multiplicacion -->
+       <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+       </ul>
+
+       <!-- Sin agrupar -->
+       <!-- div>header>ul>li*2>a+footer>p -->
+       <div>
+        <header>
+            <ul>
+                <li>
+                    <a href=""></a>
+                    <footer>
+                        <p></p>
+                    </footer>
+                </li>
+                <li>
+                    <a href=""></a>
+                    <footer>
+                        <p></p>
+                    </footer>
+                </li>
+            </ul>
+        </header>
+       </div>
+
+       <!-- Con agrupacion -->
+        <div>
+            <header>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </header>
+            <footer>
+                <p></p>
+            </footer>
+        </div>
+
+        <div id="header"></div>
+        <div class="caja"></div>
+
+        <div id="header"></div>
+        <div class="pagina"></div>
+        <div id="footer" class="clase1 clase2 clase3"></div>
+
+        <!-- atributos -->
+         <td title="Hola mundo" colspan="3"></td>
+
+         <!-- Sin numeracion de items -->
+          <ul>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+          </ul>
+
+          <!-- con numeracion de items -->
+           <ul>
+            <li class="item1"></li>
+            <li class="item2"></li>
+            <li class="item3"></li>
+            <li class="item4"></li>
+            <li class="item5"></li>
+           </ul>
+</body>
+</html>

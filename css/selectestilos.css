@@ -1,0 +1,16 @@
+/* selector por elementos */
+h1{
+    font-size: 48px;
+    background-color: blue;
+    color: white;
+}
+
+h2{
+    font-size: 36px;
+    color: brown;
+}
+
+/* selector por id se usa "#" */
+h2#color-verde{
+    color: green;
+}
