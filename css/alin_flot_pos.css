@@ -1,0 +1,18 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6em;
+}
+.contenedor{
+    max-width: 700px;
+    margin: auto;
+    /* text-align: left; */
+}
+.caja{
+    background: magenta;
+    color: khaki;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.caja h3{
+    text-align: right;
+}

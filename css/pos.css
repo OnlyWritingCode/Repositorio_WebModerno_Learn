@@ -1,0 +1,22 @@
+/* muchos posicionamientos
+static
+relative
+*/
+
+/* p{
+    border: 1px solid black;
+    background-color: chocolate;
+    font-size: 2rem;
+    position: static;
+} */
+
+p{
+    border: 1px solid black;
+    background-color: chocolate;
+    font-size: 2rem;
+}
+.esp{
+    background-color: mediumseagreen;
+    position: relative;
+    bottom: 30px;
+}

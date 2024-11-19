@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caja{
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: white;
+    margin: 20px;
+    margin-left: 0;
+    
+}
+
+/* .caja p{
+    margin: 0px;
+} */
