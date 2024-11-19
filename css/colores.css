@@ -1,0 +1,28 @@
+h1{
+    color: gold;
+    background-color: salmon;
+}
+
+h2{
+    color: darkgoldenrod;
+}
+
+.caja1{
+    width: 100px;
+    height: 10px;
+    background-color: lemonchiffon;
+}
+
+
+h3{
+    color: #00FF00;
+}
+
+h4{
+    
+    color: rgba(230, 10, 1,0.01);
+}
+
+body{
+    background-color: cornflowerblue;
+}
