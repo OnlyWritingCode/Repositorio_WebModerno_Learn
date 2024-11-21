@@ -1,0 +1,24 @@
+li{
+    display: inline;
+}
+
+li a{
+    padding-right: 30px;
+}
+
+img{
+    display: none;
+    margin: auto;
+    width: 40%;
+}   
+
+.caja{
+    box-sizing: border-box;
+    background-color: darkgoldenrod;
+    color: white;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 32%;
+    display: inline-block;
+}

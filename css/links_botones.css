@@ -1,0 +1,39 @@
+a{
+    color: #333;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkmagenta;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: greenyellow;
+}
+
+a:active{
+    color: tomato;
+}
+
+.btn{
+    background-color: darkolivegreen;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    cursor: not-allowed;
+}
+
+.btn:hover{
+    background-color: brown;
+    color: yellow;
+}
+
+.btn:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
