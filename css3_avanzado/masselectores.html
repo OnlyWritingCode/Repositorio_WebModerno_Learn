@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más selectores</title>
+    <style>
+        /* SElector padre. si el div es padre directo de p*/
+        div p{
+            background-color: burlywood;
+        }
+
+        /* div > p{
+            background-color: burlywood;
+        } */
+
+        /* selector de siguiente. si el p esta dsp de div */
+        div + p {
+            background-color: crimson;
+            color: white;
+        }
+
+        /* por atributo */
+        a[target="_blank"]{
+            background-color: darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolorem quod animi eius expedita iste nostrum impedit nulla esse rem.</p>
+
+        <ul>
+            <li>Item 1</li>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+            <li>Item 3</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, modi?</p>
+    <a href="#" target="_self">Page 1</a>
+    <a href="#">Page 2</a>
+    <a href="https://misitiowebdetest.com/" target="_blank">SitioTest</a>
+</body>
+</html>
