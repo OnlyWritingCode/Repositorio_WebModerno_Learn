@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc()</title>
+    <style>
+
+        :root{
+            --ancho-caja: 200px;
+            --margen-caja: 30px;
+            --alto-caja: 300px;
+        }
+
+        body{
+            color: aliceblue;
+        }
+
+        .container{
+            background-color: brown;
+            width: calc(500px - 100px);
+            height: 200px;
+        }
+
+        .box{
+            background-color: blueviolet;
+            width: var(--ancho-caja);
+            margin-right: var(--margen-caja);
+            height: var(--alto-caja);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+    </div>
+    <br>
+    <div class="box"></div>
+
+</body>
+</html>

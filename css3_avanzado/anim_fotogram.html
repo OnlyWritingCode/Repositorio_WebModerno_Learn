@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones y Fotogramas</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        .box{
+            background: white;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            /* animation-name: animacion1;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+            animation-direction: alternate-reverse;
+            animation-timing-function: ease-out; */
+            animation: animacion1 3s forwards 2s ease-in-out infinite;
+        }
+
+        @keyframes animacion1{
+            from{
+                
+                top: 0;
+            }
+            to{
+                width: 700px;
+                background-color: blueviolet;
+                top: 600px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
