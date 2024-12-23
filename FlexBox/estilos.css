@@ -11,12 +11,12 @@ h1{
 .container{
     display: flex;
     width: 980px;
-    /* height: 800px; */
+    height: 500px;
     margin: 0 auto;
     border: 2px solid red;
-    flex-direction: row-reverse;
-    justify-content: center;
-    /* flex-wrap: wrap-reverse; */
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .box{
