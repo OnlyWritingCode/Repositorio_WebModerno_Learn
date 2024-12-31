@@ -1,5 +1,5 @@
 @import 'variables';
-
+@import 'functions';
 *{
     margin: 0;
     padding: 0;
@@ -13,8 +13,9 @@ body{
 }
 
 header{
-    background-color: $color-claro;
-    color: $color-oscuro;
+    background-color: $color-oscuro;
+    // color: $color-oscuro;
+    color: configurar-color-texto($color-oscuro);
     padding: 1rem;
 
     h1{
@@ -47,6 +48,29 @@ header{
     //         color: darkblue;
     //     }
     // }
-    
+
+    // HERENCIA
+    %btn-general{
+        display: inline-block;
+        padding: 0.8rem 2rem;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        margin: 1rem 2rem;
+    }
+    .btn{
+        &-claro{
+            @extend %btn-general;
+            background-color: #cccccc;
+        }
+
+        &-oscuro{
+            @extend %btn-general;
+            background-color: black;
+            &:hover{
+                @include transform(rotate(90deg));
+            }
+        }
+    }
 }
 

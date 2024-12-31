@@ -4,15 +4,15 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(206, 7, 7);
   color: #f4f4f4;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
 
 header {
-  background-color: #f4f4f4;
-  color: black;
+  background-color: rgb(206, 7, 7);
+  color: #fff;
   padding: 1rem;
 }
 header h1 {
@@ -34,6 +34,25 @@ header h1 {
 }
 .article-b {
   background-color: darkorange;
+}
+.article .btn-oscuro, .article .btn-claro {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 1rem 2rem;
+}
+.article .btn-claro {
+  background-color: #cccccc;
+}
+.article .btn-oscuro {
+  background-color: black;
+}
+.article .btn-oscuro:hover {
+  transform: rotate(90deg);
+  --webkit-transform: $propiedad;
+  -ms-transform: rotate(90deg);
 }
 
 /*# sourceMappingURL=main.css.map */
