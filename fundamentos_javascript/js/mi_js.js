@@ -4,4 +4,11 @@ alert("Hola mundo");
 
 function cambiarColor() {
   document.body.style.backgroundColor = "lightblue";
+  // 
 }
+
+
+// agagasg
+
+// gasga
+
