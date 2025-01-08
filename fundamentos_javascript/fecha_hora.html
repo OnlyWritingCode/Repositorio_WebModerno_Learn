@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fecha y hora en js</title>
+
+    <script>
+
+        
+        let fechaactual = new Date()
+        console.log(fechaactual)
+
+        let fecha = new Date()
+        let anio = fecha.getFullYear()
+        console.log(anio)
+
+        let mes = fecha.getMonth()
+        console.log(mes + 1)
+
+        let dia = fecha.getDate()
+        console.log(dia)
+
+        let hora = fecha.getHours()
+        console.log(hora)
+
+        let min = fecha.getMinutes()
+        console.log(min)
+
+        let sec = fecha.getSeconds()
+        console.log(sec)       
+        let mm = fecha.getMilliseconds()
+        console.log(mm) 
+
+
+        let fechainit = new Date()
+        let formatofech = fechainit.toDateString()
+        console.log(formatofech)
+
+        let formhora = fechainit.toTimeString()
+        console.log(formhora)
+
+        let formperso = fechainit.toLocaleString()
+        console.log(formperso)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
