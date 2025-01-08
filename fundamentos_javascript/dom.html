@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM (Document Object Model) Js</title>
+    <style>
+        .resaltado{
+            font-weight: bold;
+            background-color: brown;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="mititulo">Hola, Mundo</h1>
+    <div id="micontenedor"></div>
+    <p id="miparrafo">Este parrafo sera eliminado</p>
+    
+
+    
+    <script>
+        const titulo = document.getElementById("mititulo");
+
+        titulo.textContent = "www.ecm-pca.cl"
+
+        titulo.style.color = "red"
+
+        const nuevodiv = document.createElement("div")
+
+        nuevodiv.textContent = "New Content"
+        nuevodiv.style.backgroundColorn = "pink"
+
+        const contenedor = document.getElementById("micontenedor");
+        contenedor.appendChild(nuevodiv)
+
+
+        const parraf = document.getElementById("miparrafo")
+
+        parraf.classList.add("resaltado")
+
+        parraf.remove()
+    </script>
+</body>
+</html>

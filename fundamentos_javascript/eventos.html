@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos en Js</title>
+    
+</head>
+<body>
+    <button onclick="saludar()">Haz click</button>
+
+    <button id="miBoton">boton 2</button>
+
+    <button id="miBoton2">boton 3</button>
+
+    <input type="text" id="miInput">
+
+
+
+
+
+
+    <script>
+        function saludar(){
+            alert("Hola!")
+        }
+
+        document.getElementById("miBoton").addEventListener("click", function(){
+            alert("Hola!")
+        });
+
+        document.getElementById("miBoton2").addEventListener("click", function(evento){
+            alert("Posición del click: " + evento.clientX + ", " + evento.clientY);
+        });
+
+
+        document.getElementById("miInput").addEventListener("keydown", function(evento){
+            console.log("Tecla presionada: " + evento.key);
+        })
+    </script>
+</body>
+</html>

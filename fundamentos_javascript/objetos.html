@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos en Js</title>
+    <script>
+        let persona = {
+            nombre: "el loco",
+            edad: 43,
+            soltero: true,
+            saludar: function(){
+                console.log("Hi!")
+            },
+        };
+
+
+        console.log(persona.nombre)
+        console.log(persona["edad"])
+        console.log(persona.edad)
+
+        console.log(persona)
+
+        persona.edad = 35;
+        persona["soltero"] = false;
+
+        console.log(persona)
+
+        persona.ciudad = "Lima"
+        delete persona.edad;
+
+        console.log(persona)
+
+        persona.saludar()
+
+        let coche = {
+            marca: "Toyota",
+            modelo: "Corolla",
+            detalles:{
+                color: "Azul",
+                anio: 2024,
+            }
+        }
+
+        console.log(coche.detalles.anio)
+
+        let otraPerson = persona;
+        // otraPerson.nombre = "Alcalede"
+
+        console.log(otraPerson.nombre)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

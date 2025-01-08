@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try & Catch Js</title>
+</head>
+<body>
+    
+
+    <script>
+        try{
+            let resultado = JSON.parse("Texto no válido JSON");
+            console.log(resultado);
+        } catch(error){
+            console.log("Se produjo el error: " + error.message)
+        }finally{
+            console.log("Este codigo siempre se ejecuta")
+        }
+    </script>
+</body>
+</html>
